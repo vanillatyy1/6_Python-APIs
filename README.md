@@ -16,8 +16,8 @@ Therefore, you will see something like this on the codes.
 I am guessing the preferrable way is using the function, however, I won't be able to follow the psuedocodes line-by-line on the starter code file.
 The manual coding also seem to be easier to adjust when it comes to the cosmetic look of it - for example: relocating the model's formula.
 
-# Method 1 - Manual Coding - the linear regression analysis is performed directly within the script without using the function
-# Linear regression on Northern Hemisphere
+Method 1 - Manual Coding - the linear regression analysis is performed directly within the script without using the function
+Linear regression on Northern Hemisphere
 (slope, intercept, rvalue, pvalue, stderr) = linregress(northern_hemi_df["Lat"], northern_hemi_df["Max Temp"])
 print(f"The r-value is: {rvalue}")
 line_eq=f"y = {round(slope,2)}x + {round(intercept,2)}"
@@ -28,15 +28,15 @@ plt.scatter(northern_hemi_df["Lat"], northern_hemi_df["Max Temp"])
 plt.plot(northern_hemi_df["Lat"],regress_values,"r-")
 plt.annotate(line_eq, ((5, -20)), fontsize=15, color="red") 
 
-# Incorporate the other graph properties
+Incorporate the other graph properties
 plt.xlabel("Latitude")
 plt.ylabel("Temperature(C)")
 plt.tight_layout()
 plt.title("Northern Hemisphere: Temperature (C) vs. Latitude ")
 
-# Show plot
+Show plot
 plt.show()
 
-# Method 2 - Linear regression on Northern Hemisphere using the function
+Method 2 - Linear regression on Northern Hemisphere using the function
 linerWeather("Lat","Max Temp","north")
 

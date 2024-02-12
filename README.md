@@ -16,3 +16,9 @@ Therefore, you will see something like this on the codes.
 I am guessing the preferrable way is using the function, however, I won't be able to follow the psuedocodes line-by-line on the starter code file.
 The manual coding also seem to be easier to adjust when it comes to the cosmetic look of it - for example: relocating the model's formula.
 
+![Example Image](https://github.com/vanillatyy1/6_Python-APIs/blob/main/Screenshot_for_readme/example.png)
+
+![Northern Hemisphere Temperature vs Latitude - Method 1](https://github.com/vanillatyy1/6_Python-APIs/blob/main/Screenshot_for_readme/Northern%20HemisphereTempC%20vs%20Latitude_method1.png)
+
+![Northern Hemisphere Temperature vs Latitude - Method 2](https://github.com/vanillatyy1/6_Python-APIs/blob/main/Screenshot_for_readme/Northern%20HemisphereTempC%20vs%20Latitude_method2.png)
+

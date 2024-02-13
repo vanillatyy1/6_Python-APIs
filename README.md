@@ -12,9 +12,12 @@ VacationPy:
 
 ## Note for Central Grader:
 For WeatherPy Requirement 2: Compute Linear Regression for Each Relationship, I tried using both manual coding and plotting with the function. 
-Therefore, you will see something like this on the codes. 
 I am guessing the preferrable way is using the function, however, I won't be able to follow the psuedocodes line-by-line on the starter code file.
 The manual coding also seem to be easier to adjust when it comes to the cosmetic look of it - for example: relocating the model's formula.
+
+Therefore, I have decided to display the input and output of both methods.
+
+![Image Description](https://github.com/vanillatyy1/6_Python-APIs/blob/918ed520c15fbb2878768c25b63326a3a868b82c/Screenshot_for_readme/example1.png)
 
 ![Example Image](https://github.com/vanillatyy1/6_Python-APIs/blob/main/Screenshot_for_readme/example.png)
 

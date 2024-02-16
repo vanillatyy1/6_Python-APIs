@@ -18,7 +18,8 @@ However the list is based on random, and Part 1 WeatherPy's instruction only say
 I tried re-generating for a few times, and the closest I could get is 610.
 Would that be sufficient?
 
-3) For WeatherPy Requirement 2: Compute Linear Regression for Each Relationship, I tried using both manual coding and plotting with the function. 
+### 2) WeatherPy Requirement 2
+For WeatherPy Requirement 2: Compute Linear Regression for Each Relationship, I tried using both manual coding and plotting with the function. 
 I am guessing the preferrable way is using the function, however, I won't be able to follow the psuedocodes line-by-line on the starter code file.
 The manual coding also seem to be easier to adjust when it comes to the cosmetic look of it - for example: relocating the model's formula.
 

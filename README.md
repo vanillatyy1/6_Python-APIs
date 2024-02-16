@@ -43,6 +43,8 @@ Plot with Method 2:
 - Created a map displaying points for every city in the DataFrame
 - Adjusted the size of the points based on humidity levels
 
+![City Map](https://github.com/vanillatyy1/6_Python-APIs/blob/fd70e8d47c83003a5eeb05c3c15b96f2b67e49d1/Screenshot_for_readme/city_map.png)
+
 ### Ideal Weather Condition Selection:
 
 - Narrowed down cities based on preferred weather conditions (sunny, moderate temperature)
@@ -73,4 +75,5 @@ Plot with Method 2:
 - Created a DataFrame to store city, country, coordinates, humidity, and hotel name
 - Plotted hotels on the map with hover messages displaying city, country, humidity, and hotel name
 
+![Hotel Map](https://github.com/vanillatyy1/6_Python-APIs/blob/fd70e8d47c83003a5eeb05c3c15b96f2b67e49d1/Screenshot_for_readme/hotel_map.png)
 

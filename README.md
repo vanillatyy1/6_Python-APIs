@@ -11,7 +11,7 @@ VacationPy:
 - Employ Jupyter notebooks, GeoViews Python library, and Geoapify API to create map visualizations
 
 ## Note for Central Grader:
-###1) RE: Feedback Feb 14 at 10:43pm
+### 1) RE: Feedback Feb 14 at 10:43pm
 
 The "Generate the Cities List by Using the `citipy` Library" part of the code is given by the starter file, but you mentioned that the the expected output for cities is 611 as per Feb 14 at 10:43pm feedback.
 However the list is based on random, and Part 1 WeatherPy's instruction only say "over 500 cities". 

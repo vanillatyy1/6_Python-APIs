@@ -15,6 +15,7 @@ VacationPy:
 The "Generate the Cities List by Using the `citipy` Library" part of the code is given by the starter file, but you mentioned that the the expected output for cities is 611 as per Feb 14 at 10:43pm feedback.
 However the list is based on random, and Part 1 WeatherPy's instruction only say "over 500 cities". 
 I tried re-generating for a few times, and the closest I could get is 610.
+Would that be sufficient?
 
 3) For WeatherPy Requirement 2: Compute Linear Regression for Each Relationship, I tried using both manual coding and plotting with the function. 
 I am guessing the preferrable way is using the function, however, I won't be able to follow the psuedocodes line-by-line on the starter code file.

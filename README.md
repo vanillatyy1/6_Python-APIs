@@ -37,6 +37,40 @@ Plot with Method 2:
 
 ![Northern Hemisphere Temperature vs Latitude - Method 2](https://github.com/vanillatyy1/6_Python-APIs/blob/main/Screenshot_for_readme/Northern%20HemisphereTempC%20vs%20Latitude_method2.png)
 
+## CityPy:
+'see VacationPy.ipynb'
+
+### City Data Retrieval:
+- Generated random geographic coordinates
+- Utilized citipy to find the nearest city to each coordinate
+    'Current output: 610
+- Retrieved weather data for each city using the OpenWeatherMap API
+- Created a DataFrame to store city weather data
+  
+| Column      | Count |
+|-------------|-------|
+| City        | 582   |
+| Lat         | 582   |
+| Lng         | 582   |
+| Max Temp    | 582   |
+| Humidity    | 582   |
+| Cloudiness  | 582   |
+| Wind Speed  | 582   |
+| Country     | 582   |
+| Date        | 582   |
+
+### Weather Visualization:
+- Created scatter plots to showcase the relationship between latitude and various weather variables (Temperature, Humidity, Cloudiness, Wind Speed)
+
+### Linear Regression Analysis:
+- Computed linear regression for each weather variable
+- Separated plots into Northern and Southern Hemispheres
+- Created scatter plots with linear regression lines, equations, and r-values
+
+### Discussion on Linear Relationships:
+- Analyzed the relationship between latitude and weather variables in both hemispheres
+- Interpreted the linear regression results to understand how temperature, humidity, cloudiness, and wind speed change with distance from the equator
+
 ## VacationPy:
 ### City Map Visualization:
 

@@ -37,3 +37,21 @@ Plot with Method 2:
 
 ![Northern Hemisphere Temperature vs Latitude - Method 2](https://github.com/vanillatyy1/6_Python-APIs/blob/main/Screenshot_for_readme/Northern%20HemisphereTempC%20vs%20Latitude_method2.png)
 
+## VacationPy:
+### City Map Visualization:
+
+- Created a map displaying points for every city in the DataFrame
+- Adjusted the size of the points based on humidity levels
+
+### Ideal Weather Condition Selection:
+
+- Narrowed down cities based on preferred weather conditions (sunny, moderate temperature)
+- Created a DataFrame with selected cities
+
+### Hotel Search and Mapping:
+
+- Utilized the Geoapify API to find hotels within a specified radius of each city
+- Created a DataFrame to store city, country, coordinates, humidity, and hotel name
+- Plotted hotels on the map with hover messages displaying city, country, humidity, and hotel name
+
+

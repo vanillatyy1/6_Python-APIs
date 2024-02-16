@@ -38,12 +38,13 @@ Plot with Method 2:
 ![Northern Hemisphere Temperature vs Latitude - Method 2](https://github.com/vanillatyy1/6_Python-APIs/blob/main/Screenshot_for_readme/Northern%20HemisphereTempC%20vs%20Latitude_method2.png)
 
 ## CityPy:
-'see VacationPy.ipynb'
+*see VacationPy.ipynb*
 
 ### City Data Retrieval:
 - Generated random geographic coordinates
 - Utilized citipy to find the nearest city to each coordinate
-    'Current output: 610
+  
+    *Current output: 610*
 - Retrieved weather data for each city using the OpenWeatherMap API
 - Created a DataFrame to store city weather data
   

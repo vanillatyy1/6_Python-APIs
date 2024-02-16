@@ -37,11 +37,48 @@ Plot with Method 2:
 
 ![Northern Hemisphere Temperature vs Latitude - Method 2](https://github.com/vanillatyy1/6_Python-APIs/blob/main/Screenshot_for_readme/Northern%20HemisphereTempC%20vs%20Latitude_method2.png)
 
+## CityPy:
+*see VacationPy.ipynb*
+
+### City Data Retrieval:
+- Generated random geographic coordinates
+- Utilized citipy to find the nearest city to each coordinate
+  
+    *Current output: 610*
+- Retrieved weather data for each city using the OpenWeatherMap API
+- Created a DataFrame to store city weather data
+  
+| Column      | Count |
+|-------------|-------|
+| City        | 582   |
+| Lat         | 582   |
+| Lng         | 582   |
+| Max Temp    | 582   |
+| Humidity    | 582   |
+| Cloudiness  | 582   |
+| Wind Speed  | 582   |
+| Country     | 582   |
+| Date        | 582   |
+
+### Weather Visualization:
+- Created scatter plots to showcase the relationship between latitude and various weather variables (Temperature, Humidity, Cloudiness, Wind Speed)
+
+### Linear Regression Analysis:
+- Computed linear regression for each weather variable
+- Separated plots into Northern and Southern Hemispheres
+- Created scatter plots with linear regression lines, equations, and r-values
+
+### Discussion on Linear Relationships:
+- Analyzed the relationship between latitude and weather variables in both hemispheres
+- Interpreted the linear regression results to understand how temperature, humidity, cloudiness, and wind speed change with distance from the equator
+
 ## VacationPy:
 ### City Map Visualization:
 
 - Created a map displaying points for every city in the DataFrame
 - Adjusted the size of the points based on humidity levels
+
+![City Map](https://github.com/vanillatyy1/6_Python-APIs/blob/fd70e8d47c83003a5eeb05c3c15b96f2b67e49d1/Screenshot_for_readme/city_map.png)
 
 ### Ideal Weather Condition Selection:
 
@@ -73,4 +110,5 @@ Plot with Method 2:
 - Created a DataFrame to store city, country, coordinates, humidity, and hotel name
 - Plotted hotels on the map with hover messages displaying city, country, humidity, and hotel name
 
+![Hotel Map](https://github.com/vanillatyy1/6_Python-APIs/blob/fd70e8d47c83003a5eeb05c3c15b96f2b67e49d1/Screenshot_for_readme/hotel_map.png)
 
